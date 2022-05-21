@@ -12,6 +12,11 @@ function solution(arr) {
     }
     answer = min;
     return answer;
+
+    // let answer = Math.min.apply(null, arr);
+    // let answer = Math.min(...arr); // 배열을 넘길 때는 전개연산자 사용
+    // let answer = Math.max(...arr);
+    // return answer;
 }
 
 let arr = [5, 7, 1, 3, 2, 9, 11];
